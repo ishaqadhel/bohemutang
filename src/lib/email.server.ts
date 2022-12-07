@@ -23,7 +23,7 @@ export const sendMail = ({
       {
         From: {
           Email: 'givemefeedbackplease@gmail.com',
-          Name: 'Lhokutang',
+          Name: 'BohemUtang',
         },
         To: [{ Email: to, Name: toName }],
         Subject: subject,

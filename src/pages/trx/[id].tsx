@@ -83,7 +83,7 @@ export default function UserTransactionPage() {
 
   const onEmailClick = () => {
     localStorage.setItem(
-      `@lhokutang/email-trx-${userId}`,
+      `@bohemutang/email-trx-${userId}`,
       new Date().toISOString()
     );
     const description = window.prompt('Pesan untuk orang ini (opsional)');
@@ -106,7 +106,7 @@ export default function UserTransactionPage() {
   };
   // check if date is in 1 hour ago
   const isAbleToSendEmail = () => {
-    const date = getFromLocalStorage(`@lhokutang/email-trx-${userId}`);
+    const date = getFromLocalStorage(`@bohemutang/email-trx-${userId}`);
     if (!date) return true;
 
     const now = new Date();
@@ -173,7 +173,7 @@ export default function UserTransactionPage() {
                   <p className='text-sm'>
                     Anda telah mengirim email pada{' '}
                     {new Date(
-                      getFromLocalStorage(`@lhokutang/email-trx-${userId}`)!
+                      getFromLocalStorage(`@bohemutang/email-trx-${userId}`)!
                     ).toLocaleTimeString()}
                     , tunggu 1 jam untuk mengirim kembali
                   </p>

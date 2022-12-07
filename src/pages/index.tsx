@@ -25,11 +25,11 @@ export default function HomePage({
                     <h1 className='text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl'>
                       <span className='block xl:inline'>Selamat datang di</span>{' '}
                       <span className='block text-primary-600 xl:inline'>
-                        LhokUtang
+                        BohemUtang
                       </span>
                     </h1>
                     <p className='mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl'>
-                      Solusi untuk perutangan duniawi di kos lhoktuan.
+                      Solusi untuk perutangan duniawi di kamar bohem.
                     </p>
                     <div className='mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8'>
                       <div className='rounded-md shadow'>
@@ -66,6 +66,10 @@ export default function HomePage({
               © {new Date().getFullYear()} By{' '}
               <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
                 Theodorus Clarence
+              </UnderlineLink>{' '}
+              Forked By{' '}
+              <UnderlineLink href='https://github.com/ishaqadhel'>
+                Ishaq Adheltyo
               </UnderlineLink>
             </footer>
           </div>

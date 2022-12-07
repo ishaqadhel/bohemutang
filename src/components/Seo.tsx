@@ -4,11 +4,11 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
-  title: 'LhokUtang - Perutangan duniawi',
-  siteName: 'LhokUtang',
-  description: 'Aplikasi perutangan 4.0 milik kos loktuan',
+  title: 'BohemUtang - Perutangan duniawi',
+  siteName: 'BohemUtang',
+  description: 'Aplikasi perutangan 4.0 milik 1225',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://lhoks.thcl.dev',
+  url: 'https://bohemutang.ishaqadhel.com',
   type: 'website',
   robots: 'follow, index',
   /** No need to be filled, will be populated with openGraph function */

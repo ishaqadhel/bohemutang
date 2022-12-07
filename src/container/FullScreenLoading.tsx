@@ -25,7 +25,7 @@ export default function FullScreenLoading({
         children
       ) : (
         <div className='flex min-h-screen flex-col items-center justify-center gap-2'>
-          <h1>LhokUtang</h1>
+          <h1>BohemUtang</h1>
           <span className='text-lg font-bold'>Loading...</span>
           <ImSpinner6 className='animate-spin text-2xl' />
         </div>

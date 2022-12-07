@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>LhokUtang</h1>
+  <h1>Bohemutang</h1>
   <p>Aplikasi perutangan 4.0 milik kos lhoktuan, sukolilo, surabaya.</p>
 </div>
 

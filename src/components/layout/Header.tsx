@@ -34,7 +34,7 @@ export default function Header() {
         <div className='flex w-full items-center justify-between border-b border-gray-200 py-4 lg:border-none'>
           <div className='flex items-center'>
             <UnstyledLink href='/' className='text-lg font-semibold text-black'>
-              LhokUtang
+              BohemUtang
             </UnstyledLink>
             <div className='ml-10 hidden space-x-8 lg:block'>
               {navigation.map((link) => (
